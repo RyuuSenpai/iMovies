@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sevenrealm.base.imovies.LandScapeView">
+    tools:context="com.example.eslam_abo_el_fetouh.myimoviesudacity.LandScapeView">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.sevenrealm.base.imovies.MainActivity">
+    tools:context="com.example.eslam_abo_el_fetouh.myimoviesudacity.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
 
         <fragment
             android:id="@+id/fragment_pane"
-            android:name="com.sevenrealm.base.imovies.MainFragment"
+            android:name="com.example.eslam_abo_el_fetouh.myimoviesudacity.MainFragment"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"

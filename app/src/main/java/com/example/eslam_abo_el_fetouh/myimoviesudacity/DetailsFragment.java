@@ -246,7 +246,8 @@ public class DetailsFragment extends Fragment implements LoaderManager.LoaderCal
 //                    title.setText(cursorMovie.getString(COL_MOVIE_TITLE));
                     collapsingToolbarLayout.setTitle(cursorMovie.getString(COL_MOVIE_TITLE) + " ("+ cursorMovie.getString(COL_MOVIE_RELEASE).substring(0,4) + ")");
                     desc.setText(cursorMovie.getString(COL_MOVIE_OVERVIEW));
-                    vote.setText(cursorMovie.getString(COL_MOVIE_RATE)+"/10");
+                    //String rate = cursorMovie.getString(COL_MOVIE_RATE) + "/10";
+                    //vote.setText(rate);
                     //  favButton.setVisibility(View.VISIBLE);
                     final Core core = new Core(getActivity());
                     //  favButton.setVisibility(View.VISIBLE);

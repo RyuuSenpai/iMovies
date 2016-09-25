@@ -6,7 +6,7 @@
     tools:showIn="@layout/activity_main"
     android:background="@color/white"
     android:tag="MainFragment"
-    tools:context="com.sevenrealm.base.mymovies.MainActivityFragment"
+    tools:context="com.example.eslam_abo_el_fetouh.myimoviesudacity.MainFragment"
     android:id="@+id/fragment_main_relative"
     android:orientation="vertical">
 
